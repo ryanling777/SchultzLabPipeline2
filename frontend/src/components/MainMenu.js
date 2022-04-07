@@ -9,27 +9,27 @@ export default function MainMenu(){
     <div >
         <p>
         <h2 style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height:'20vh'}}>Please select an operation to perform </h2>
-        <a href="./">
-                <button className="menu-button">Stiching</button>
+        <a href="./stitching">
+                <button className="menu-button">Stitching</button>
         </a>
 
         <div class="space">
         </div>
 
-        <a>
+        <a href="./metrics">
             <button className="menu-button">Quantitative Metrics</button>
         </a>
 
         </p>
         <p>
-        <a>
+        <a href="./validation">
             <button className="menu-button">Validation</button>
         </a>
         
         <div class="space">
         </div>
 
-        <a>
+        <a href="./registration">
             <button className="menu-button">Registration</button>
         </a>
         </p>
