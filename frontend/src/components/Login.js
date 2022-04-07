@@ -8,7 +8,19 @@ export default function Login(){
         
         <h2 style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height:'20vh'}}>Alzheimer's Disease Pipeline</h2>
         <h4 style={{display: 'flex', justifyContent: 'center', height:'10vh'}}>Please Input Your Imperial College Credentials</h4>
-        <input type="text" placeholder='Username'/>
-        <input type="text" placeholder='Password'/>
+        <p>
+            <input type="text" placeholder='Username'/>
+        </p>
+        <p>
+            <input type="text" placeholder='Password'/>
+        </p>
+
+        <p>
+        <a href="./exorin">
+                <button className="menu-button">Login</button>
+        </a>
+
+        </p>
+
     </div>);
 }

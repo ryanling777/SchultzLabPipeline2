@@ -43,3 +43,30 @@
   align-items: 'center'; 
   height:'30vh'
 }
+
+.menu-button {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px 0px;
+  cursor: pointer;
+  width: 25%;
+  display: inline;
+  border: 2.5px solid black;
+
+}
+
+.space {
+  width: 20px;
+  height: auto;
+  display: inline-block;
+}
+
+input[type=text] {
+  width: 30%;
+  border: 2.5px solid black;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
