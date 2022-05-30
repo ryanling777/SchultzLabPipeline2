@@ -6,9 +6,9 @@ import Login from './components/Login';
 import MainMenu from './components/MainMenu';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar  from './components/Navbar';
+import BrainSelection from './components/BrainSelection';
 
 function App() {
-
 
   return (
     <div className='App'>
@@ -20,6 +20,7 @@ function App() {
           <Route path='/exorin' element={<ExInMenu/>}/>
           <Route path='/mainmenu' element={<MainMenu/>}/>
           <Route path='/metrics' element={<Metrics/>}/>
+          <Route path='/brainselection' element={<BrainSelection/>}/>
         </Routes>
     </Router>
     </div>

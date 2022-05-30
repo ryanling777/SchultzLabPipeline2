@@ -16,20 +16,20 @@ export default function MainMenu(){
         <div class="space">
         </div>
 
-        <a>
+        <a href="./metrics">
             <button className="menu-button">Quantitative Metrics</button>
         </a>
 
         </p>
         <p>
-        <a>
+        <a href="./brainselection">
             <button className="menu-button">Validation</button>
         </a>
         
         <div class="space">
         </div>
 
-        <a>
+        <a href="./">
             <button className="menu-button">Registration</button>
         </a>
         </p>

@@ -70,3 +70,25 @@ input[type=text] {
   margin: 8px 0;
   box-sizing: border-box;
 }
+
+input[type=password] {
+  width: 30%;
+  border: 2.5px solid black;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+table {
+  border: 2px solid black;
+  width: 800px;
+  height: 200px;
+}
+  
+th {
+  border-bottom: 1px solid black;
+}
+  
+td {
+  text-align: center;
+}

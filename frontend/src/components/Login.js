@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {BrowserRouter} from 'react-router-dom'
 import '../App.css'
+import ImperialImage from "./Imperial.png"
 
 export default function Login(){
     return (
@@ -12,7 +13,7 @@ export default function Login(){
             <input type="text" placeholder='Username'/>
         </p>
         <p>
-            <input type="text" placeholder='Password'/>
+            <input type="password" placeholder='Password'/>
         </p>
 
         <p>
@@ -21,6 +22,8 @@ export default function Login(){
         </a>
 
         </p>
+
+        <img src={ImperialImage} style={{position: 'absolute',left: '50px', top:'700px', height: '80px', width: '200px'}}></img>
 
     </div>);
 }
