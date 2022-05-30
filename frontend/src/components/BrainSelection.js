@@ -25,7 +25,7 @@ export default function BrainSelection() {
                     <td>3</td>
                     <td>5xFAD</td>
                     <td> <a href="./metrics">
-                        <button>Quantitative Metrics</button>
+                        <button className="brain-button">Quantitative Metrics</button>
                     </a>
                     </td>
                     <td>Validated</td>
@@ -37,7 +37,7 @@ export default function BrainSelection() {
                     <td>Wild-Type</td>
                     <td>Not obtained</td>
                     <td> <a href="./metrics">
-                        <button>Upload Data</button>
+                        <button className="brain-button">Upload Data</button>
                     </a>
                     </td>
                 </tr>
@@ -47,7 +47,7 @@ export default function BrainSelection() {
                     <td>6</td>
                     <td>5xFAD</td>
                     <td> <a href="./metrics">
-                        <button>Quantitative Metrics</button>
+                        <button className="brain-button">Quantitative Metrics</button>
                     </a></td>
                     <td>Validated</td>
                 </tr>
